@@ -12,7 +12,7 @@ conflicts=('lyrebird')
 provides=('lyrebird')
 
 source=("${url}/archive/v${pkgver}.tar.gz" "${pkgname}.desktop")
-sha256sums=('0f880b4e441656ab6aa54527a7441031ea55ad58c4d02a44f03667fda581a050' '4469b6297dcdbfe49cc88d79dd7918d5850a36f7fce5b9f0969e36d209db0a7f')
+sha256sums=('d5fea39c34f4a554173e9bb576dcbb7680acf94cd1594033622cfd40b1f5f47d' '4469b6297dcdbfe49cc88d79dd7918d5850a36f7fce5b9f0969e36d209db0a7f')
 
 package() {
     BIN_PATH="${pkgdir}/usr/bin"
